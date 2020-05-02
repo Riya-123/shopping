@@ -41,10 +41,10 @@ function cartElement($prdimg,$prdname,$prdprice,$productid,$quant)
 </div>
 <div class=\"col-md-3\" id=\"updown\">
 <div class=\"pt-5\">
-<button type=\"button\" class=\"btn bg-light border rounded-circle\"  ><i class=\"fa fa-minus\" name=\"minus\" id=\"substract\"></i></button>
+<button type=\"button\" class=\"btn bg-light border rounded-circle\"  ><i class=\"fa fa-minus sub-cart\" name=\"minus\"></i></button>
 <input type=\"text\" value=\"1\" name=\"quantity\"  id=\"$productid\" class=\"form-control w-25 d-inline\">
 <input type=\"hidden\" name=\"product_id\" value=\"$productid\">
-<button type=\"button\"class=\"btn bg-light border rounded-circle\"><i class=\"fa fa-plus\" name=\"plus\" id=\"add\"></i></button>
+<button type=\"button\"class=\"btn bg-light border rounded-circle\"><i class=\"fa fa-plus add-cart\" name=\"plus\"></i></button>
 
 </div>
 <script src=\"cart1.js\"></script>
